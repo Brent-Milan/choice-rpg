@@ -1,11 +1,11 @@
-package production.untitled;
+package production;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
-public class NPC {
+public class Npc {
 
 	@Id
 	@GeneratedValue
@@ -19,15 +19,27 @@ public class NPC {
 	String catchPhrase;
 	
 	
-	public NPC() {
+	public Npc() {
 		
 	}
 	
-	public NPC(String portraitAdd, String spriteAdd, String catchPhrase) {
+	public Npc(String portraitAdd, String spriteAdd, String catchPhrase) {
 		this.portraitAdd = portraitAdd;
 		this.spriteAdd = spriteAdd;
 		this.catchPhrase = catchPhrase;
 		
+	}
+
+	public String getPortraitAdd() {
+		return portraitAdd;
+	}
+
+	public String getSpriteAdd() {
+		return spriteAdd;
+	}
+
+	public String getCatchPhrase() {
+		return catchPhrase;
 	}
 	
 }
