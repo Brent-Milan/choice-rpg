@@ -14,7 +14,7 @@ public class WebController {
 	
 	@RequestMapping("/npcTest")
 	public String displayNpc(Model model) {
-		model.addAttribute("npc", npcRepo.findAll());
+		model.addAttribute("npcs", npcRepo.findAll());
 		return "npcTest";
 	}
 }

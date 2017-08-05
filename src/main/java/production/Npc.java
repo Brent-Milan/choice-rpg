@@ -16,17 +16,17 @@ public class Npc {
 	String spriteAdd;
 	
 	//dialogue
-	String catchPhrase;
+	String catchphrase;
 	
 	
 	public Npc() {
 		
 	}
 	
-	public Npc(String portraitAdd, String spriteAdd, String catchPhrase) {
+	public Npc(String portraitAdd, String spriteAdd, String catchphrase) {
 		this.portraitAdd = portraitAdd;
 		this.spriteAdd = spriteAdd;
-		this.catchPhrase = catchPhrase;
+		this.catchphrase = catchphrase;
 		
 	}
 
@@ -38,8 +38,8 @@ public class Npc {
 		return spriteAdd;
 	}
 
-	public String getCatchPhrase() {
-		return catchPhrase;
+	public String getCatchphrase() {
+		return catchphrase;
 	}
 	
 }

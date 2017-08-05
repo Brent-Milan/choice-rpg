@@ -6,5 +6,10 @@
 </head>
 <body>
 
+<ul>
+	<li th:each="current :${npcs}"><img th:src="${current.portraitAdd}" class="image"></img>
+	<span th:text="${current.catchphrase}"></span></li>
+
+</ul>
 </body>
 </html>
