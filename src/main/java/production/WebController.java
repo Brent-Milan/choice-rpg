@@ -17,4 +17,10 @@ public class WebController {
 		model.addAttribute("npcs", npcRepo.findAll());
 		return "npcTest";
 	}
+	
+	@RequestMapping("/demo")
+	public String displayUi(Model model) {
+		model.addAtrribute("npcs", npcRepo.findOne(id));
+		return "demo";
+	}
 }
