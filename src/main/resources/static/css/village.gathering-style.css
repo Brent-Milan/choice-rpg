@@ -68,9 +68,14 @@ display: flex;
 }
 
 .container-villagers {
+	display: flex;
 	
 }
 
+#priest {
+	height: 200px;
+	transform: scaleX(-1);
+}
 #villagers {
 	height: 200px;
 }
