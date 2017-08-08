@@ -18,10 +18,10 @@ public class WebController {
 		return "npcTest";
 	}
 	
-	//incomplete -- research single ID method
-	@RequestMapping("/demo")
-	public String displayUi(Model model) {
-		model.addAttribute("npcs", npcRepo.findOne((long) 1));
-		return "demo";
-	}
+//	//incomplete -- research single ID method
+//	@RequestMapping("/demo")
+//	public String displayUi(Model model) {
+//		model.addAttribute("npcs", npcRepo.findOne((long) 1));
+//		return "demo";
+//	}
 }
