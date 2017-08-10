@@ -1,0 +1,10 @@
+body {
+	background: url("/images/placeholder/ancient-corridor.jpg");
+	background-repeat: no-repeat;
+	background-size: 1400px 700px;
+}
+
+#squire {
+	transform: scaleX(-1);
+	height: 200px;
+}
