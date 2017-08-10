@@ -19,9 +19,9 @@ public class WebController {
 	}
 	
 //	//incomplete -- research single ID method
-//	@RequestMapping("/demo")
-//	public String displayUi(Model model) {
-//		model.addAttribute("npcs", npcRepo.findOne((long) 1));
-//		return "demo";
-//	}
+	@RequestMapping("/demo")
+	public String displayUi(Model model) {
+		model.addAttribute("npcs", npcRepo.findOne((long) 1));
+		return "demo";
+	}
 }
