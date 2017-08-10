@@ -4,7 +4,20 @@ body {
 	background-size: 1400px 700px;
 }
 
+
+.img-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 510px;	
+}
+
+
 #squire {
+	transform: scaleX(-1);
+	height: 200px;
+}
+
+#gladis {
 	transform: scaleX(-1);
 	height: 200px;
 }
